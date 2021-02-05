@@ -15,4 +15,6 @@ export default class Calculator {
   marsAge() {
     return Math.floor(this.age / 1.88)
   }
+
+  
 }
