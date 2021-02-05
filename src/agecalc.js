@@ -16,5 +16,7 @@ export default class Calculator {
     return Math.floor(this.age / 1.88)
   }
 
-  
+  jupiterAge() {
+    
+  }
 }
