@@ -8,5 +8,7 @@ export default class Calculator {
     return Math.floor(this.age / .24);
   }
 
-  
+  venusAge() {
+
+  }
 }
