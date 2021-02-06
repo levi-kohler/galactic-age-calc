@@ -27,5 +27,8 @@ describe("Calculator", () => {
 
   test("it should determine what the users age is in Jupiter years", () => {
     expect(ageCalc.jupiterAge()).toEqual(4)
-  });  
+  }); 
+  
+  test("it should determine a users life expectancy on each planet")
+  
 })
