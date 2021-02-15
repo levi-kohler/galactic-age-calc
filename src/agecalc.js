@@ -39,4 +39,8 @@ export default class Calculator {
   jupiterYearsLeft() {
     return ((this.lifeExpectancy - this.age) / 11.86)
   }
+
+  passedExpected() {
+    
+  }
 }

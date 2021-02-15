@@ -48,5 +48,14 @@ describe("Calculator", () => {
   test("it should determine how many years a user has left to live on Jupiter", () => {
     expect(ageCalc.jupiterYearsLeft()).toEqual(50 / 11.86)
   });
+
+  let person;
+  beforeEach(() => {
+    person = new Calculator(110,100)
+  });
+
+  test("it should tell a user how much they have lived past the life expectancy", () => {
+    expect(person.passedExpected()).toEqual("Congrats! You've made it 10 years longer than any of us thought you would")
+  })
   
-})
+});
