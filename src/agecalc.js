@@ -47,4 +47,8 @@ export default class Calculator {
       return overExpectedEarthStatement;
     }
   }
+
+  passedExpectedMercury() {
+  
+  }
 }

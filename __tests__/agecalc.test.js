@@ -59,6 +59,10 @@ describe("Calculator", () => {
     expect(person.passedExpectedEarth()).toEqual("Congrats! You've made it 10 years longer than any of us thought you would")
   });
 
+  test("it should tell a user how much they have lived past the life expectancy on Mercury", () => {
+    expect(person.passedExpectedMercury()).toEqual("Congrats! You've made it 41 years longer than any of us thought you would")
+  });
+
 
 
 
