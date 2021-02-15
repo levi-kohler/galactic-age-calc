@@ -19,5 +19,8 @@ export default class Calculator {
   jupiterAge() {
     return Math.floor(this.age / 11.86)
   }
-  
+
+  earthYearsLeft() {
+
+  }
 }

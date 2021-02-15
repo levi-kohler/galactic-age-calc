@@ -23,6 +23,7 @@ This application will take a users age and calculate what their age would be on 
 * Clone this repository to your desktop
 * Navigate to top level of directory and run 'npm install' to download all dependencies
 * Run 'npm start' to open a live server of the project
+* Run 'npm test' to run testing with Jest and make sure all business logic is sound
 
 ## Known Bugs
 
