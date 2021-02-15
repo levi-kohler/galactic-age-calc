@@ -65,6 +65,10 @@ export default class Calculator {
   }
 
   passedExpectedMars() {
-    
+    let overExpectedMars = Math.floor((this.age - this.lifeExpectancy) / 1.88);
+    let overExpectedMarsStatement = (`Congrats! You've made it ${overExpectedMars} years longer than any of us thought you would`)
+    if (this.lifeExpectancy < this.age); {
+      return overExpectedMarsStatement;
+    }
   }
 }
