@@ -73,6 +73,10 @@ export default class Calculator {
   }
 
   passedExpectedJupiter() {
-
+    let overExpectedJupiter = Math.ceil((this.age - this.lifeExpectancy) / 11.86);
+    let overExpectedJupiterStatement = (`Congrats! You've made it ${overExpectedJupiter} year longer than any of us thought you would`)
+    if (this.lifeExpectancy < this.age); {
+      return overExpectedJupiterStatement;
+    }
   }
 }
