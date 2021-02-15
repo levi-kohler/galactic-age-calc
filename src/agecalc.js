@@ -31,4 +31,8 @@ export default class Calculator {
   venusYearsLeft() {
     return ((this.lifeExpectancy - this.age) / .62)
   }
+
+  marsYearsLeft() {
+    
+  }
 }

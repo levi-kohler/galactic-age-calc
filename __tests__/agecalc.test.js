@@ -40,5 +40,9 @@ describe("Calculator", () => {
   test("it should determine how many years a user has left to live on Venus", () => {
     expect(ageCalc.venusYearsLeft()).toEqual(50 / .62)
   });
+
+  test("it should determine how many years a user has left to live on Mars", () => {
+    expect(ageCalc.marsYearsLeft()).toEqual(50 / 1.88)
+  });
   
 })
