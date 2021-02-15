@@ -16,7 +16,7 @@
 
 ## Description
 
-This application will take a users age and calculate what their age would be on Mercury, Venus, Mars, and Jupiter. It will also determine how long the person has left to live on each planet based on their life expectancy.
+This application will take a users age and calculate what their age would be on Mercury, Venus, Mars, and Jupiter. It will also determine how long the person has left to live on each planet, and if they have surpassed the life expectancy they will receive a message saying how for they have supassed it.
 
 ## Setup/Installation Requirements
 
