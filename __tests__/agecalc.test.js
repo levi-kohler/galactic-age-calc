@@ -65,6 +65,10 @@ describe("Calculator", () => {
   test("it should tell a user how much they have lived past the life expectancy on Venus", () => {
     expect(person.passedExpectedVenus()).toEqual("Congrats! You've made it 16 years longer than any of us thought you would")
   });
+
+  test("it should tell a user how much they have lived past the life expectancy on Mars", () => {
+    expect(person.passedExpectedMars()).toEqual("Congrats! You've made it 5 years longer than any of us thought you would")
+  });
 });
   
 

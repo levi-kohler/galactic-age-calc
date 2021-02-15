@@ -63,4 +63,8 @@ export default class Calculator {
       return overExpectedVenusStatement;
     }
   }
+
+  passedExpectedMars() {
+    
+  }
 }
