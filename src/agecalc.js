@@ -21,6 +21,6 @@ export default class Calculator {
   }
 
   earthYearsLeft() {
-
+    return (this.lifeExpectancy - this.age)
   }
 }
