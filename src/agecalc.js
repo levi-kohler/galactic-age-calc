@@ -25,6 +25,6 @@ export default class Calculator {
   }
 
   mercuryYearsLeft() {
-
+    return ((this.lifeExpectancy - this.age) / .24)
   }
 }
