@@ -35,4 +35,8 @@ export default class Calculator {
   marsYearsLeft() {
     return ((this.lifeExpectancy - this.age) / 1.88)
   }
+
+  jupiterYearsLeft() {
+    
+  }
 }
