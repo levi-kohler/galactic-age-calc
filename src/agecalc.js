@@ -40,11 +40,11 @@ export default class Calculator {
     return ((this.lifeExpectancy - this.age) / 11.86)
   }
 
-  passedExpected() {
-    let overExpected = (this.age - this.lifeExpectancy);
-    let overExpectedStatement = (`Congrats! You've made it ${overExpected} years longer than any of us thought you would`)
+  passedExpectedEarth() {
+    let overExpectedEarth = (this.age - this.lifeExpectancy);
+    let overExpectedEarthStatement = (`Congrats! You've made it ${overExpectedEarth} years longer than any of us thought you would`)
     if (this.lifeExpectancy < this.age); {
-      return overExpectedStatement;
+      return overExpectedEarthStatement;
     }
   }
 }
