@@ -27,7 +27,6 @@ This application will take a users age and calculate what their age would be on 
 
 ## Known Bugs
 
-* Life expectancy functionality is not built out yet
 * No UI
 
 ## License
